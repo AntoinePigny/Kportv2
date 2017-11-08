@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+}
+.slider{
+  position: absolute;
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.slider-container {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+  object-fit: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider img {
+  height: 100%;
+  width: 100vw;
+}
+.bckImg {
+  width: 100%;
+}
+i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00313f;
+  color: #f6fdff;
+  padding:10px;
+  margin:15px;
+  font-size: 50px;
+}
+.text1 {
+  clear: both;
+  font-size: 80px;
+  text-align: center;
+  color: #f0f8ff;
+  text-shadow: 2px 2px #848484;
+  padding: 200px;
+  opacity: 1;
+  z-index: 1;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 20%;
+}
+input{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  background-color: #00313f;
+
+}
+.me {
+  font-size: 50px;
+  margin-left: 3vw;
+  text-align: center;
+  color: #00313f;
+  text-shadow: 2px 2px #848484;
+  padding: 20px;
+  opacity: 1;
+}
+.values{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.me img{
+  margin-top: 40px;
+  margin-right: 30px;
+  width: 100%;
+  border-radius: 50%;
+}
+.abtImg{
+  background-image: url("images/abtImg.jpg")no-repeat cover;
+  height: 100%;
+  width: 100vw;
+}
+.half-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    padding-left: 1%;
+    height: 100vh;
+    border-top:5px solid #00313f;
+  }
+.triple{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align:center;
+  padding-top: 40px;
+}
+.hardwork, .friendship, .fun{
+  display: flex;
+    flex-direction: column;
+  width:25%;
+  height: 25%;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+
+.hardwork img , .friendship img , .fun img {
+width:60%;
+height:60%;
+border-radius: 25%;
+margin-left: 4vw;
+margin-bottom: 8px;
+}
+.quadruple {
+  min-height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.quadruple > div {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+.quadruple > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box { margin: 20px; }
+.box1 { background-color: red; }
+.box2 { background-color: orange; }
+.box3 { background-color: purple; }
+.box4 { background-color: grey; }
